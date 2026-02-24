@@ -128,11 +128,11 @@ Country column contained "india", "U.S.A", "Uk", and values with trailing spaces
 
 | Country | Count of Revenue |
 |---|---|
-| Canada | 65|
-| India | 69 |
-| UK |60|
-| USA | 56 |
-| **Grand Total** | **250** |
+| India | $1,093,902 |
+| UK | $923,919 |
+| Canada | $865,894 |
+| USA | $751,564 |
+| **Grand Total** | **$3,635,279** |
 
 ### Orders by Status
 
