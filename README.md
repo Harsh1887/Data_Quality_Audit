@@ -19,11 +19,11 @@ This project simulates the role of a **Data Quality Analyst** at an e-commerce/r
 | Sheet | Purpose |
 |---|---|
 | `Raw_Data` | Original unmodified dataset |
+| `Tasks` | Full Issue-Impact-Recommendation-Action for all 13 tasks |
 | `Cleaned_Data` | Validation layer with formula-based QA checks |
 | `Product_Master` | Reference table for Product_ID validation |
-| `Tasks` | Full Issue-Impact-Recommendation-Action for all 14 tasks |
-| `QA_Findings` | Executive summary, risk table, and strategic recommendations |
 | `Pivot_Tables` | Revenue by Country and Orders by Status summaries |
+| `QA_Findings` | Executive summary, risk table, and strategic recommendations |
 
 ---
 
@@ -126,13 +126,13 @@ Country column contained "india", "U.S.A", "Uk", and values with trailing spaces
 
 ### Revenue by Country
 
-| Country | Total Revenue |
+| Country | Count of Revenue |
 |---|---|
-| India | $1,093,902 |
-| UK | $923,919 |
-| Canada | $865,894 |
-| USA | $751,564 |
-| **Grand Total** | **$3,635,279** |
+| Canada | 65|
+| India | 69 |
+| UK |60|
+| USA | 56 |
+| **Grand Total** | **250** |
 
 ### Orders by Status
 
